@@ -77,9 +77,10 @@
 
   /* Popular content Ends here */
 
+ 
 
 
-  
+
 
 }
 
@@ -193,7 +194,50 @@
         gap:2rem;
     }
 
+ /* Destain container starts here */
+ .destin-container h2{
+    font-size: 20px;
+ }
+ .destin-container p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+ }
+ .destin-container .destin_img_container{
+    display: flex;
+    flex-direction: column; 
+    gap:10px;
+    justify-content: center;  
+    align-items: center; 
+  }
 
+  .destin-container .destin_img_container .img-1{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-2{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-3{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-4{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-5{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-6{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-7{
+    width: 98%;
+  }
+ 
+  .destin-container .destin_img_container img{
+    width:100%;
+    object-fit: cover;
+  }
+  /* Destin container Ends here */
 
 
 }

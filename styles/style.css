@@ -184,7 +184,7 @@ body{
 
 /* Popular content starts here */
 .popular-tours{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     max-width: 1170px;
     margin: 50px auto;
     display: flex;
@@ -193,7 +193,7 @@ body{
 }
 
 .popular-content{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -201,7 +201,7 @@ body{
 }
 
 .popular-img {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 98%;
     display: flex;
     justify-content: flex-end;
@@ -248,3 +248,99 @@ body{
 }
 
   /* Popular content Ends here */
+
+  /* Destin container starts here */
+
+  .destin-container{
+        /* border: 5px solid red; */
+        max-width: 1170px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.9rem;
+        /* border: 5px solid red; */
+
+  }
+
+  .destin-container .destin_heading{
+
+    color: #131318;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+
+  }
+
+  .destin-container .destin_para{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+
+  .destin-container .destin_img_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+  }
+  .destin-container .destin_img_container .img-1{
+    grid-column: 1 / 7;
+    grid-row:1/1;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+    
+  }
+  .destin-container .destin_img_container .img-2{
+    grid-column: 7 / 13;
+    grid-row:1/1;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+
+  }
+  .destin-container .destin_img_container .img-3{
+    grid-column: 1 / 5;
+    grid-row:2/2;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+  }
+  .destin-container .destin_img_container .img-4{
+    grid-column: 5 / 10;
+    grid-row:2/2;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+  }
+  .destin-container .destin_img_container .img-5{
+    grid-column: 10 / 13;
+    grid-row:2/2;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+  }
+  .destin-container .destin_img_container .img-6{
+    grid-column: 1 / 6;
+    grid-row:3/3;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+  }
+  .destin-container .destin_img_container .img-7{
+    grid-column: 6 / 13;
+    grid-row:3/3;
+    width: fit-content;
+    object-fit: cover;
+    /* border: 5px solid blue; */
+  }
+
+  .destin-container .destin_img_container img{
+
+    max-width: 96%;
+    object-fit: cover;
+    /* border: 5px solid green; */
+  }
+    /* Destin container Ends here */
