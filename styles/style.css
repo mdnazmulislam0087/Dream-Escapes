@@ -179,3 +179,72 @@ body{
     font-weight: 700;    
 
 }
+
+/* Banner ends here */
+
+/* Popular content starts here */
+.popular-tours{
+    border: 5px solid red;
+    max-width: 1170px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.popular-content{
+    border: 5px solid green;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.popular-img {
+    border: 5px solid black;
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popular-tours h2{
+    color: #131318;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.popular-tours p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    }
+
+.popular-tours ul{
+    padding-left: 1.6rem;
+}
+.popular-tours li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+} 
+
+.popular-tours button{
+    width: 10.8rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700; 
+}
+
+  /* Popular content Ends here */

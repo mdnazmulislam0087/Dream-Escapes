@@ -55,11 +55,31 @@
         padding: 0rem 2rem;
     }
 
-/* Banner starts here */
+/* Banner ends here */
+
+   /* Popular content starts here */
+   .popular-tours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.popular-tours .popular-img {
+    border: 5px solid black;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+  /* Popular content Ends here */
 
 
 
-
+  
 
 }
 
@@ -164,11 +184,18 @@
     }
     /* Banner starts here */ 
 
+    /* Popular content starts here */
+    .popular-tours{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
 
 
 
 
-    
 }
 
 
