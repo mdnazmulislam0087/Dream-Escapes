@@ -77,7 +77,23 @@
 
   /* Popular content Ends here */
 
- 
+ /* Newsletter section starts here */
+
+
+.newletter_container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+}
+.newsletter_subscribe{
+    width: 98%;
+}
+.newletter-img{
+    width: 98%;   
+
+}
+/* Nwsletter section ends here */
 
 
 
@@ -267,7 +283,33 @@
 .chooseus .choose_us_div_container p{
    font-size: 14px;
 }
+/* Choose us section done */
+
+
+
+
+
+
+
+
+/* Newsletter section starts here */
+
+
+.newletter_container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
 
 }
-/* Choose us section done */
+.newsletter_subscribe{
+    width: 98%;
+}
+.newletter-img{
+    width: 98%;   
+
+}
+/* Nwsletter section ends here */
+
+}
+
 
