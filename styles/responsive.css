@@ -210,6 +210,14 @@
         gap:2rem;
     }
 
+    .popular-tours h2{
+        font-size: 20px;
+    
+    }
+    
+    .popular-tours p {
+        font-size: 14px;
+        }
  /* Destain container starts here */
  .destin-container h2{
     font-size: 20px;

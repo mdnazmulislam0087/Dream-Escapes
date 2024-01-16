@@ -1,5 +1,5 @@
 /* Font importing */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 
 
@@ -436,6 +436,21 @@ body{
 
 /* choose us section done */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* newletter section here */
 .newletter_container{
     max-width: 1170px;
     margin: 50px auto;
@@ -542,3 +557,74 @@ body{
 
 
 }
+
+/* Footer starts here */
+.footer{
+    max-width: 1440px;
+    /* margin: 50px auto; */
+    margin: 50px auto 0px auto;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+}
+.footer .logo img {
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+}
+.footer .logo h2{
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer .logo span{
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+
+.footer .footer_para{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 50%
+}
+
+.footer .social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer .social a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .line hr{
+    color: #1313181A;
+}
+
+.footer .copy{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 110px;
+}
+
+/* Footer done */
