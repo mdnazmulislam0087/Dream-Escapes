@@ -284,6 +284,7 @@ body{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3,1fr);
     
+    
   }
   .destin-container .destin_img_container .img-1{
     grid-column: 1 / 7;
@@ -291,7 +292,20 @@ body{
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    /* border: 5px solid red; */
+    position: relative;
     
+  }
+
+  .destin-container .destin_img_container .img-1 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
   }
   .destin-container .destin_img_container .img-2{
     grid-column: 7 / 13;
@@ -299,6 +313,17 @@ body{
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    position: relative;
+
+  }
+  .destin-container .destin_img_container .img-2 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
 
   }
   .destin-container .destin_img_container .img-3{
@@ -307,6 +332,17 @@ body{
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    position: relative;
+  }
+  .destin-container .destin_img_container .img-3 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
   }
   .destin-container .destin_img_container .img-4{
     grid-column: 5 / 10;
@@ -314,13 +350,37 @@ body{
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    position: relative;
   }
+  .destin-container .destin_img_container .img-4 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
+  }
+
   .destin-container .destin_img_container .img-5{
     grid-column: 10 / 13;
     grid-row:2/2;
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    position: relative;
+  }
+
+  .destin-container .destin_img_container .img-5 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
   }
   .destin-container .destin_img_container .img-6{
     grid-column: 1 / 6;
@@ -328,6 +388,18 @@ body{
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    position: relative;
+  }
+
+  .destin-container .destin_img_container .img-6 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
   }
   .destin-container .destin_img_container .img-7{
     grid-column: 6 / 13;
@@ -335,6 +407,18 @@ body{
     width: fit-content;
     object-fit: cover;
     /* border: 5px solid blue; */
+    position: relative;
+  }
+
+  .destin-container .destin_img_container .img-7 p{
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
   }
 
   .destin-container .destin_img_container img{
@@ -435,6 +519,229 @@ body{
 }
 
 /* choose us section done */
+
+
+/* dills */
+.dills {
+    max-width: 1170px;
+    margin: 50px auto;
+    justify-content: space-between;
+    text-align: center;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.dills .content  h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.dills p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.dills .contentandcart{
+    width: 95%;
+    /* border: 5px solid green; */
+    position: relative;
+}
+
+.dills .contentandcart .imgdiv{
+    width: 100%;
+    /* border: 5px solid black; */
+}
+
+.dills .contentandcart .imgdiv img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.dills .contentandcart .cart{
+    /* border: 5px solid blue; */
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 49%;
+    height: 79%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentandcart h2{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.contentandcart h3{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.dills .contentandcart .cart .place{
+    display: flex;
+    flex-direction: row;
+    /* color: 5px solid black; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.dills .contentandcart2{
+    width: 95%;
+    /* border: 5px solid green; */
+    position: relative;
+}
+.dills .contentandcart2 .imgdiv{
+    width: 100%;
+    /* border: 5px solid black; */
+}
+.dills .contentandcart2 .imgdiv img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.dills .contentandcart2 .cart2 .place{
+    display: flex;
+    flex-direction: row;
+    /* color: 5px solid black; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+
+.dills .contentandcart2 .cart2{
+    /* border: 5px solid blue; */
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 49%;
+    height: 79%;
+    position: absolute;
+    top: 15%;
+    left: 10%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* Perfect place  */
+
+.perfectplace{
+    max-width: 1170px;
+    margin: 50px auto;
+    justify-content: space-between;
+    text-align: center;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.perfectplace .text{
+    /* border: 5px solid green; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    padding-left: 5px;;
+
+}
+.perfectplace .text h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+    text-align: left;
+}
+.perfectplace .text p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+
+.perfectplace .text ul{
+    padding-left: 20px;
+}
+.perfectplace .text li{
+
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    text-align: left;
+}
+
+
+.perfectplace .video-container{
+    /* border: 5px solid black; */
+    width: 50%;
+    position: relative;
+
+}
+.perfectplace .video-container video{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%); */
+}
+.perfectplace .video-container .logo-overlay{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 20%;
+
+}
+
+.place_button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+
+
+}
+
+
+
+
 
 
 

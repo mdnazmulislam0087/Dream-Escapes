@@ -76,6 +76,50 @@
 }
 
   /* Popular content Ends here */
+   /* Destain container starts here */
+ .destin-container h2{
+    font-size: 20px;
+ }
+ .destin-container p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+ }
+ .destin-container .destin_img_container{
+    display: flex;
+    flex-direction: column; 
+    gap:10px;
+    justify-content: center;  
+    align-items: center; 
+  }
+
+  .destin-container .destin_img_container .img-1{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-2{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-3{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-4{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-5{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-6{
+    width: 98%;
+  }
+  .destin-container .destin_img_container .img-7{
+    width: 98%;
+  }
+ 
+  .destin-container .destin_img_container img{
+    width:100%;
+    object-fit: cover;
+  }
+  /* Destin container Ends here */
 
  /* Newsletter section starts here */
 
@@ -94,6 +138,87 @@
 
 }
 /* Nwsletter section ends here */
+/* Perfect place */
+.perfectplace{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.perfectplace .text{
+    width: 100%;
+
+}
+.perfectplace .video-container{
+    width: 100%;
+    height: 100%;
+}
+
+/* Cart */
+
+
+
+.dills .contentandcart .imgdiv{
+    width: 100%;
+    height: 500px;
+    border: 5px solid black;
+}
+.dills .contentandcart .imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dills .contentandcart .cart{
+    width: 59%;
+    height: 79%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.contentandcart h2{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 800;
+}
+.contentandcart h3{
+    color: #FF5400;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/*  two cart */
+.dills .contentandcart2 .imgdiv{
+    width: 100%;
+    height: 500px;
+    border: 5px solid black;
+}
+.dills .contentandcart2 .imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dills .contentandcart2 .cart{
+    width: 59%;
+    height: 79%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.contentandcart2 h2{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 800;
+}
+.contentandcart2 h3{
+    color: #FF5400;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+
+
+
 
 
 
@@ -293,6 +418,85 @@
 }
 /* Choose us section done */
 
+/* Cart */
+
+
+.dills .contentandcart .imgdiv{
+    width: 100%;
+    height: 500px;
+    border: 5px solid black;
+}
+.dills .contentandcart .imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dills .contentandcart .cart{
+    width: 59%;
+    height: 79%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.contentandcart h2{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 800;
+}
+.contentandcart h3{
+    color: #FF5400;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/*  two cart */
+.dills .contentandcart2 .imgdiv{
+    width: 100%;
+    height: 500px;
+    border: 5px solid black;
+}
+.dills .contentandcart2 .imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dills .contentandcart2 .cart{
+    width: 59%;
+    height: 79%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.contentandcart2 h2{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 800;
+}
+.contentandcart2 h3{
+    color: #FF5400;
+    font-size: 16px;
+    font-weight: 800;
+}
+.dills .content  h2{
+    font-size: 20px;
+}
+.dills p{
+    font-size: 14px;
+}
+
+
+/* perfect place */
+.perfectplace .text h2{
+    font-size: 20px;
+}
+.perfectplace .text p{
+    font-size: 14px;
+
+}
+
+
+
+
 
 
 
@@ -317,6 +521,25 @@
 
 }
 /* Nwsletter section ends here */
+
+/* Perfect place */
+.perfectplace{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.perfectplace .text{
+    width: 100%;
+
+}
+.perfectplace .video-container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 }
 
